@@ -1,0 +1,9 @@
+/* third way to include css this is called in external css */
+#first {
+    background-color: aqua;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: wheat;
+}

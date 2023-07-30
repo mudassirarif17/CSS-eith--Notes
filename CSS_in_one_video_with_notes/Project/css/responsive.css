@@ -1,0 +1,54 @@
+@media screen and (max-width : 1100px ){
+    nav{
+        flex-direction: column;
+        /* align-content: center; */
+    }
+    .logo{
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    nav ul{
+        justify-content: center;
+        height: 32px;
+    }
+    .search{
+        justify-content: center;
+        margin-bottom: 2px;
+    }
+    .search input{
+        height: 2vh;
+        margin: 0px 5px ;
+    }
+    .container{
+        min-height: calc(100vh - 10vh - 32px);
+    }
+    .slider img{
+        width: 80vw;
+    }
+    .card{
+        max-width: 90vw;
+        padding: 0px 2px;
+    }
+    .carditem{
+        padding: 5px 1px;
+    }
+    .carditem img{
+        width: 10vw;
+        height: 8vh;
+    }
+
+    .m-1{
+        font-size: 0.8em;
+        /* text-align: right; */
+    }
+    /* This is Imp but this time I will do some experiment */
+    /* .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    } */
+}

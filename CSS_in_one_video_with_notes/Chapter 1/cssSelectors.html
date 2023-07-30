@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors</title>
+    <style>
+        /* this is called element selectors in css */
+        h1{
+            color: red;
+        }
+        div{
+            background-color: antiquewhite;
+        }
+        /*this is id selectors & we grouped more than elements by using " , " */
+        #red , h3{
+            background-color: red;
+        }
+        /*this is class selectors */
+        .blue{
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+        }
+        /* " * " is a universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is about Selectors in CSS</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat nesciunt corrupti molestias, enim deleniti vero tempora cum laudantium doloribus iste, eaque quisquam ab facere, iure magni non distinctio accusamus. Ducimus ratione nisi ex illum!</p>
+        <h1>This is another h1</h1>
+        <div id="red">bg is red</div>
+        <span class="blue">First Tag</span>
+        <span class="blue">Second Tag</span>
+        <span class="blue">Third Tag</span>
+        <h3>This is h3</h3>
+    </div>
+</body>
+</html>
